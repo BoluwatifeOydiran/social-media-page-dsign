@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The other fruit</title>
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+
+  <!-- -------------header section ------------ -->
+  <header>
+    <nav>
+      <h2 class="nav-logo"><b>THE</b>OTHER<b>FRUIT</b></h2>
+      <ul class="nav-wrapper">
+        <li>
+          <a href="/index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="/" class="nav-link">Search</a>
+        </li>
+        <li>
+          <a href="/" class="nav-link">Fruit</a>
+        </li>
+        <li>
+          <a href="/" class="nav-link">Main</a>
+        </li>
+        <li>
+          <a href="/" class="nav-link">Chat</a>
+        </li>
+        <li>
+          <a href="/about.html" class="nav-link">Listing</a>
+        </li>
+        <li>
+          <a href="/" class="nav-link">Links</a>
+        </li>
+      </ul>
+  </header>
+
+  <main class="contact-section">
+    <h1 class="contact-header">About your Listing</h1>
+    <form>
+      <div class="form-details">
+        <label for="name">Title </label>
+        <input type="text" placeholder="Listing Title" class="contact-input" required />
+        <label for="email">Description </label>
+        <input type="email" placeholder="Describe your content or share anything you'ld like" class="contact-input" required />
+        <label for="email">Photos </label>
+        <input type="file" class="contact-input file" required />
+        <label for="name">Tags </label>
+        <input type="text" placeholder="Search tearms or keywords member may use" class="contact-input" required />
+        <label for="name">Price </label>
+        $: 
+        <input type="number" class="contact-input" required />
+
+        <div class="selection">
+         <label for="name">Appearing </label>
+        <input type="date" placeholder="Dates" class="contact-input selection" required />
+        <label for="name">Times </label>
+        <input type="time" placeholder="Times" class="contact-input" required /> 
+        </div>
+        
+        <label for="name">Art/work is a </label>
+        <div class="artwork">
+          
+          <div>
+            <input type="radio"class="contact-input" required id="radio" name="Physical Team" value="Team" />
+          <p>Physical Team   </p>
+          </div>
+          <div>
+             <input type="radio" class="contact-input" required id="art" name="Physical Team" value="Digital file" />
+          <p>Digital file </p>
+          </div>
+         
+        </div>
+        <label for="name">Others </label>
+        <input type="text" placeholder="Any ideas you'ld like to share" class="contact-input" required />
+
+        <div class="button">
+          <button type="reset">Reset</button>
+          <button type="submit">Done</button>
+        </div>
+        
+      </div>
+    </form>
+  </main>
+  </body>
+  </html>
